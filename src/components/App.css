@@ -1,0 +1,191 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Disable scrolling */
+
+}
+
+body {
+    background-image: url('BG.png');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value to make it darker (0.5 for example) */
+
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4); /* Adjust the alpha value to make it darker (0.5 for example) */
+    border-radius: 100%; /* Make it a circle */
+    overflow: hidden; /* Clip the content to the shape of the border-radius */
+    padding: 20px; /* Add some padding to prevent content from sticking to the edges */
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 70px;
+    color: #ffffff;
+}
+h2 {
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 5%;
+    margin-top: 5%;
+    width: 45%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+butt
+{
+    display: flex;
+}
+
+
+
+/* Navbar styling */
+
+
+
+
+.navbar {
+    background-color: rgba(18, 70, 133, 0.858);
+    height: 50px;
+    color: rgb(124, 182, 127);
+
+}
+
+.navbar a {
+    font-size: 24px;
+    
+    text-decoration: none;
+    line-height: 45px;
+    margin-left: 7px;
+    margin-top: -1.4%;
+
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    margin-top: -1%;
+}
+
+.navbar li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar small {
+    line-height: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center; /* Vertically align items */
+}
+
+.navbar-brand img {
+    margin-right: 8px; /* Adjust margin between image and text */
+    margin-top: 2%;
+    margin-left: -6%;
+}
+
+.navbar a {
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(124, 182, 127);
+}
+
+
+
+
+
+.sab{
+    display: flex;
+}
+
+/* CENTRE STYLING */
+.centre{
+    margin-top: 76px;
+    margin-left: 138px;
+}
+.balance{
+    display: flex;
+    color: #fff;
+}
+
+
+/* RIGHT STYLING */
+
+.right{
+    margin-left: 150px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+/* LEFT STYLING */
+
+.left{
+    margin-left: 128px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.output {
+    display: inline-flex;
+    font-size: 20px;
+    margin-top: 1px;
+    background-color: #98e3c6; 
+    color: white; 
+    padding: 10px; 
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
